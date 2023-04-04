@@ -1,0 +1,11 @@
+@font-face {
+  font-family: Norse-Bold;
+  src: url(./font/Norse-Bold.otf);
+}
+body{
+    font-family: Norse-Bold, sans-serif;
+    background-image: url('./img/bg.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
