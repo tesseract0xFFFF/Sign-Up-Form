@@ -8,7 +8,9 @@ confirmPasswordInput.addEventListener("keyup", (event) => {
 
   if (password !== confirmPassword) {
     errorDiv.style.display = "block";
+    confirmPasswordInput.style.outlineColor = 'red';
   } else {
     errorDiv.style.display = "none";
+    confirmPasswordInput.style.outlineColor = 'blue';
   }
 })
