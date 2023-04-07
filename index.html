@@ -5,13 +5,61 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <script src="./js/code.js" defer></script>
     <title>Sign-Up</title>
 </head>
 <body>
     
     <div class="container1"></div>
     <div class="container2">
-        <div class="container3">s</div>
+
+       <div class="paragraph">
+        Dummy page.
+        This is a sign-up page made to test my html-css abilities.
+       </div>
+        
+        
+        <form id="signup-form" action="#" method="POST">
+            
+            <h1>Let's do this!</h1>
+            <div class="flexcontainer">
+                <div class="namecontainer">
+                    <div class="firstnameinput">
+                        <label for="first-name">First Name:</label>
+                        <input type="text" id="first-name" name="first-name" required>
+                    </div>
+                    <div class="lastnameinput">
+                        <label for="last-name">Last Name:</label>
+                        <input type="text" id="last-name" name="last-name" required>
+                    </div>
+                </div>
+                <div class="emailphonecontainer">
+                    <div class="emailinput">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="phoneinput">
+                        <label for="phone">Phone Number:</label>
+                        <input type="tel" id="phone" name="phone" required>
+                    </div>
+                </div>
+                <div class="passwordcontainer">
+                    <div class="passwordinput">
+                        <label for="password">Password:</label>
+                        <input type="password" id="password" name="password" required>
+                    </div>
+                    <div class="confirmpasswordinput">
+                        <label for="confirmpassword">Confirm Password:</label>
+                        <input type="password" id="confirmpassword" name="confirmpassword" required>
+                    </div>
+                </div>
+            </div>
+            <div class="submitdiv">
+                <input type="submit" value="Sign Up">
+                <div class="smalltext">signup</div>
+            </div>
+        </form>
     </div>
+ </div>
 </body>
 </html>
