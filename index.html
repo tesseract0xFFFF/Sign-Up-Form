@@ -47,16 +47,19 @@
                     <div class="passwordinput">
                         <label for="password">Password:</label>
                         <input type="password" id="password" name="password" required>
+                        <div id="password-match-error" class="error" style="display:none;">
+                            Passwords do not match
+                          </div>
                     </div>
                     <div class="confirmpasswordinput">
                         <label for="confirmpassword">Confirm Password:</label>
-                        <input type="password" id="confirmpassword" name="confirmpassword" required>
+                        <input type="password" id="confirm-password" name="confirm-password" required>
                     </div>
                 </div>
             </div>
             <div class="submitdiv">
-                <input type="submit" value="Sign Up">
-                <div class="smalltext">signup</div>
+                <input type="submit" value="Create Account">
+                <div class="smalltext">Already have an account? <a href="#">log in</a></div>
             </div>
         </form>
     </div>
